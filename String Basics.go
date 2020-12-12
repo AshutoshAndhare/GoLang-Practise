@@ -7,5 +7,7 @@ func main()  {
 	
 	favoriteSnack = "Bites"
 
-	fmt.Println("My favorite Snack is " + favoriteSnack)
+	var companyName string = "Cadbury"
+
+	fmt.Println("My favorite Snack is " + favoriteSnack + "from" + companyName)
 }
