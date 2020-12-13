@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	var favoriteSnack string
 	
 	favoriteSnack = "Bites"
