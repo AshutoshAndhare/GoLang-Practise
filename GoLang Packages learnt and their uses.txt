@@ -1,0 +1,12 @@
+GoLang has different packages which contain different pre-saved functions to use in our code files.
+So, here we list down what we've learnt/came accross so far.
+
+1. fmt => contains functions like, 
+	  1. Print - 
+	  2. Println
+	  3. Printf
+
+2. time => 1. Now() {can also be used with UnixNano() which gives time from January 1, 1970 UTC till now in nanosecond accuracy.
+
+3. math/rand => 1. Intn() = generates random integers to the max limit given as paramerter (the number written in parantheses)
+		2. Seed() = gives the random number generator func a value according to which the numbers are randomized.
