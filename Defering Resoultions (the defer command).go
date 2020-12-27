@@ -5,7 +5,7 @@ func queryDatabase(query string) string {
   var result string
   connectDatabase()
 
-  defer disconnectDatabase()
+  defer disconnectDatabase()//here we use the defer command, which tells the program to run disconnectDatabase() after this function ends.
   
   if query == "SELECT * FROM coolTable;" {
     result = "NAME|DOB\nVincent Van Gogh|March 30, 1853"
