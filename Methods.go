@@ -2,14 +2,16 @@ package main
 
 import "fmt"
 
+//Employee is just the name of the struct which will have the name 
 type Employee struct {
 	Name string
 }
-//syntax of the method below goes like func(pointer *Pointer) myMethod()
+//UpdateName is a method where syntax goes like func(pointer *Pointer) myMethod()
 func (e *Employee) UpdateName(newName string) {
 	e.Name = newName
 }
 
+//PrintName just prints the name
 func (e *Employee) PrintName() {
 	fmt.Println(e.Name)
 }
